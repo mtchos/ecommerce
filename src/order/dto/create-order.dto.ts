@@ -54,10 +54,10 @@ export class CreateOrderDto {
   externalId: string;
 
   @IsString()
-  buyerTaxId: string;  // Added buyerTaxId
+  buyerTaxId: string;
 
   @IsString()
-  sellerTaxId: string; // Added sellerTaxId
+  sellerTaxId: string;
 
   @IsNumber()
   subtotalAmountCents: number;
